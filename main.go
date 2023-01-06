@@ -22,14 +22,4 @@ func FilterUnique(developers []Developer) []string {
 
 func main() {
 	fmt.Println("Getting started with testify")
-	input := []Developer{
-		Developer{Name: "Elliot"},
-		Developer{Name: "Elliot"},
-		Developer{Name: "David"},
-		Developer{Name: "Alexander"},
-		Developer{Name: "Eva"},
-		Developer{Name: "Alan"},
-	}
-	data := FilterUnique(input)
-	fmt.Println(data)
 }
